@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "1v2boost")(type "KiCad")(uri "${KIPRJMOD}/lib/1v2boost.pretty")(options "")(descr "Project-local footprints for the 1.2V boost converter"))
+)

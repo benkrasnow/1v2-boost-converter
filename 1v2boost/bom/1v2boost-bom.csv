@@ -1,0 +1,42 @@
+Item,Qty,References,Value,Footprint,MPN,Manufacturer,Description,Digi-Key P/N,Fit,Notes
+1,1,J1,CELL 1.2V 28A,SolderPad_Pair_Input_14x10mm,,,"Cell input, solder wire or braid directly",,Fit,
+2,9,C1 C2 C3 C4 C5 C6 C7 C8 C9,100u/6.3V X5R,C_1210_3225Metric,CL32A107MQVNNWE,Samsung,Ceramic 100uF 6.3V X5R 1210,1276-3366-1-ND,Fit,
+3,1,R1,0R10 1W,R_1210_3225Metric,RCWE1210R100FKEA,Vishay Dale,"0.1 ohm 1% 1W 1210 current sense, input filter damping",541-4390-1-ND,Fit,Damps the input filter against a low-impedance cell on long leads.
+4,1,L1,1.5uH PG1083.152NL,L_Pulse_PG1083,PG1083.152NL,Pulse Electronics,1.5uH 1.4mohm Isat 52A Irms 40A round wire inductor,553-3164-ND,Fit,"Land pattern per Pulse datasheet P716.D: pads 1/2 4.00x5.00 mm on 14.50 mm centres, pad 3 4.00x4.00 mm at 17.50 mm. Pad 3 is a mounting tab - leave it unconnected. The core is conductive, so no exposed via may sit under the body (P716 note 10). DCR 1.4 mohm max, Isat 52 A, Irms 40 A. Dominant single loss in the design."
+5,2,Q1 Q2,SUP40012EL-GE3,TO-220-3_Vertical,SUP40012EL-GE3,Vishay,N-MOSFET 40V 150A 1.49mohm logic level TO-220AB,SUP40012EL-GE3-ND,Fit,"Two in parallel. Logic level, Rds(on) 1.49 mohm typ at Vgs=10 V, Qgd 6.7 nC. Bolt both to a common heatsink - tabs are the SW node, so isolate from D1."
+6,1,R2,1m0 5W,R_Shunt_2512_CSS2H,CSS2H-2512R-1L00F,Bourns,"1 mohm 5W current sense, 2512 (2-terminal)",CSS2H-2512R-1L00FCT-ND,Fit,"TWO-terminal part - the 4 pads are 2 terminals, tied in pairs (1+3, 2+4) per Bourns' own land pattern, where a 0.40 mm sense finger leaves each solder pad. Take ISNS_K and AGND at the finger tips, not the solder pads. Value is capped at 1.73 mohm by the slope compensation requirement (TPS40210 eq 19), which rules out every stocked value above 1 mohm. Raises the OC trip to 150 A."
+7,1,D1,STPS40L45CT,TO-220-3_Vertical,STPS40L45CT,STMicroelectronics,"Schottky 45V 2x20A low drop, common cathode, TO-220AB",497-7567-5-ND,Fit,"Both halves paralleled. Tab is the cathode (VOUT), so it needs an insulating pad if it shares a heatsink with Q1/Q2."
+8,1,R3,2R2 1W,R_1210_3225Metric,ESR25JZPJ2R2,Rohm,"2.2 ohm 5% 1W 1210, switch node snubber",RHM2.2AXCT-ND,Fit,Snubber. Tune on the bench - TO-220 lead inductance makes this necessary rather than optional.
+9,1,C12,2n2/100V,C_1210_3225Metric,C1210C222J1GACTU,KEMET,"Ceramic 2.2nF 100V C0G 1210, snubber",399-C1210C222J1GACTUCT-ND,Fit,Snubber. Tune with R3.
+10,8,C13 C14 C15 C16 C17 C18 C19 C20,47u/25V X5R,C_1210_3225Metric,TMK325ABJ476MM-P,Taiyo Yuden,Ceramic 47uF 25V X5R 1210,587-5479-1-ND,Fit,
+11,1,J2,VOUT 12V 1.7A,SolderPad_Pair_Output_8x6mm,,,12 V output terminals,,Fit,
+12,1,U2,UCC27511ADBVR,SOT-23-6,UCC27511ADBVR,Texas Instruments,"4A/8A single low-side gate driver, split outputs, SOT-23-6",296-49474-1-ND,Fit,"Mandatory, not optional: U1's own gate driver is only 400 mA and would cost ~2.2 W in switching loss driving 260 nC of gate charge."
+13,1,R4,2R2,R_0805_2012Metric,RC0805FR-072R2L,Yageo,Turn-on gate resistor,311-2.20CRCT-ND,Fit,
+14,1,R5,1R0,R_0805_2012Metric,RC0805FR-071RL,Yageo,Turn-off gate resistor,311-1.00CRCT-ND,Fit,
+15,1,R6,10k,R_0805_2012Metric,RC0805FR-0710KL,Yageo,"Gate pulldown, holds FETs off when the driver is unpowered",311-10.0KCRCT-ND,Fit,
+16,1,C22,1u/25V,C_0805_2012Metric,C0805C105K3RACTU,KEMET,Driver bulk decoupling,399-C0805C105K3RACTUCT-ND,Fit,
+17,2,C23 C31,100n/25V,C_0603_1608Metric,C0603C104K5RACTU,KEMET,Driver HF decoupling,399-C0603C104K5RACTUCT-ND,Fit,
+18,1,U1,TPS40210DGQ,MSOP-10_3x3mm_P0.5mm,TPS40210DGQR,Texas Instruments,"Wide-input non-synchronous boost controller, MSOP-10",296-26969-1-ND,Fit,"Controller. Chosen over LM5155 because it has no hard duty-cycle limit, only a 200 ns minimum off-time."
+19,1,R7,549k 1%,R_0603_1608Metric,RC0603FR-07549KL,Yageo,"Oscillator timing resistor, 100 kHz",311-549KHRCT-ND,Fit,Sets 100 kHz with C24 = 330 pF. R*C*f ~= 18.0.
+20,1,C24,330p C0G,C_0603_1608Metric,CL10C331JB8NNNC,Samsung,Oscillator timing capacitor,1276-1073-1-ND,Fit,
+21,2,C25 C27,220n,C_0603_1608Metric,GRM188R71H224KAC4D,Murata,"Soft start, ~18 ms - long on purpose to limit cell inrush",490-12546-1-ND,Fit,
+22,1,C26,1u/16V,C_0603_1608Metric,C0603C105K4RACTU,KEMET,BP regulator bypass,399-C0603C105K4RACTUCT-ND,Fit,
+23,1,R8,100k 1%,R_0603_1608Metric,RC0603FR-07100KL,Yageo,"Feedback divider, upper",311-100KHRCT-ND,Fit,
+24,1,R9,6k19 1%,R_0603_1608Metric,ERJ-3EKF6191V,Panasonic,"Feedback divider, lower",P6.19KHCT-ND,Fit,
+25,1,R10,4k75 1%,R_0603_1608Metric,RC0603FR-074K75L,Yageo,Compensation resistor,311-4.75KHRCT-ND,Fit,
+26,1,C28,3n3,C_0603_1608Metric,GCM1885C1H332FA16D,Murata,"HF pole, ~10 kHz",490-GCM1885C1H332FA16DCT-ND,Fit,
+27,1,R11,100R,R_0603_1608Metric,RC0603FR-07100RL,Yageo,Current sense filter resistor,311-100HRCT-ND,Fit,
+28,1,C29,1n,C_0603_1608Metric,CL10C102JB8NNNC,Samsung,Current sense filter capacitor,1276-1091-1-ND,Fit,
+29,1,J3,12V BIAS,PinHeader_1x02_P2.54mm,PREC002SAAN-RC,Sullins,"Auxiliary 12 V bias input, ~60 mA",35-PREC002SAAN-RC-ND,Fit,
+30,1,D3,SS14,D_SMA,SS14,onsemi,"Schottky 40V 1A, reverse polarity protection on the bias rail",SS14CT-ND,Fit,
+31,1,C30,10u/25V,C_1210_3225Metric,C3225X7R1E106M250AC,TDK,Bias bulk,445-1434-1-ND,Fit,
+32,1,R12,10k,R_0603_1608Metric,RC0603FR-0710KL,Yageo,"Zener dropper, ~690 uA",311-10.0KHRCT-ND,Fit,
+33,1,D4,5V1 0.5W,D_SOD-123,MMSZ5231B-7-F,Diodes Incorporated,"5.1 V 0.5 W zener, comparator supply",MMSZ5231B-FDICT-ND,Fit,Creates the 5.1 V rail for U3 from the 12 V bias.
+34,2,C32 C33,100n,C_0603_1608Metric,C0603C104K5RACTU,KEMET,Comparator supply bypass,399-C0603C104K5RACTUCT-ND,Fit,
+35,1,U3,TLV3011AIDBVR,SOT-23-6,TLV3011AIDBVR,Texas Instruments,"Open-drain comparator with 1.242 V reference, SOT-23-6",296-39259-1-ND,Fit,"Cell undervoltage lockout - nothing in U1 watches the cell. Trips at 0.837 V, releases at 1.045 V. Max supply 5.5 V, hence the local zener rail from R12/D4."
+36,1,R13,10k 1%,R_0603_1608Metric,RC0603FR-0710KL,Yageo,"UVLO threshold, upper",311-10.0KHRCT-ND,Fit,
+37,1,R14,26k1 1%,R_0603_1608Metric,RC0603FR-0726K1L,Yageo,"UVLO threshold, lower",311-26.1KHRCT-ND,Fit,
+38,2,R15 R16,100k,R_0603_1608Metric,RC0603FR-07100KL,Yageo,UVLO hysteresis,311-100KHRCT-ND,Fit,"UVLO hysteresis, and it sets BOTH thresholds - do not change it without re-running design.py uvlo_thresholds(). 207 mV must stay above the cell's I*R recovery step (~117 mV at 4 mohm)."
+39,1,R17,1k,R_0603_1608Metric,RC0603FR-071KL,Yageo,Cell sense filter,311-1.00KHRCT-ND,Fit,
+40,1,C34,10n,C_0603_1608Metric,CL10B103KB8NNNC,Samsung,Reference bypass,1276-1009-1-ND,Fit,
+41,1,JP1,EN BYPASS,R_0805_2012Metric,RC0805JR-070RL,Yageo,"Solder jumper: fit to force enable, ignoring cell UVLO",311-0.0ARCT-ND,DNP,Do not fit. Fit only to bypass the cell UVLO and force enable.

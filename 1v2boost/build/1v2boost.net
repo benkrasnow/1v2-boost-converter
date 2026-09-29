@@ -1,0 +1,6688 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\Ben\\Desktop\\1.2Vboost-claude\\1v2boost\\1v2boost.kicad_sch")
+		(date "2026-07-25T15:49:31")
+		(tool "Eeschema 10.0.5")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "1.2 V to 12 V / 20 W Boost Converter")
+				(company)
+				(rev "A")
+				(date "2026-07-24")
+				(source "1v2boost.kicad_sch")
+				(comment
+					(number "1")
+					(value "Source: electromechanical cell, 0.9-1.6 V, up to 28 A")
+				)
+				(comment
+					(number "2")
+					(value "TPS40210 boost controller + UCC27511A gate driver")
+				)
+				(comment
+					(number "3")
+					(value "Bias from separate low-current 12 V auxiliary rail")
+				)
+				(comment
+					(number "4")
+					(value "All symbols and footprints are project-local")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "100u/6.3V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 100uF 6.3V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "CL32A107MQVNNWE")
+				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Digi-Key P/N") "1276-3366-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 100uF 6.3V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL32A107MQVNNWE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "1276-3366-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c4ef9155-2aff-cad0-8d7e-98836c33c2ad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100u/6.3V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 100uF 6.3V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "CL32A107MQVNNWE")
+				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Digi-Key P/N") "1276-3366-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 100uF 6.3V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL32A107MQVNNWE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "1276-3366-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c460ebff-38fc-df7a-7906-0f3d61b5c940")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "100u/6.3V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 100uF 6.3V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "CL32A107MQVNNWE")
+				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Digi-Key P/N") "1276-3366-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 100uF 6.3V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL32A107MQVNNWE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "1276-3366-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1922ce9a-773e-832f-2758-66df3bb4eb1a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100u/6.3V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 100uF 6.3V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "CL32A107MQVNNWE")
+				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Digi-Key P/N") "1276-3366-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 100uF 6.3V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL32A107MQVNNWE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "1276-3366-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bc4020cd-83f2-8ad1-8a17-693cf80481b3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "100u/6.3V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 100uF 6.3V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "CL32A107MQVNNWE")
+				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Digi-Key P/N") "1276-3366-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 100uF 6.3V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL32A107MQVNNWE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "1276-3366-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8296516e-296c-78f8-6c65-cf72f271fef2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "100u/6.3V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 100uF 6.3V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "CL32A107MQVNNWE")
+				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Digi-Key P/N") "1276-3366-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 100uF 6.3V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL32A107MQVNNWE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "1276-3366-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c48573c7-e06f-4ff6-d9ac-2ccbeca4911a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "100u/6.3V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 100uF 6.3V X5R 1210, input damping leg")
+			(fields
+				(field
+					(name "MPN") "CL32A107MQVNNWE")
+				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Digi-Key P/N") "1276-3366-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 100uF 6.3V X5R 1210, input damping leg")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL32A107MQVNNWE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "1276-3366-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ce47d974-8544-3788-1e81-6c09450044f4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "100u/6.3V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 100uF 6.3V X5R 1210, input damping leg")
+			(fields
+				(field
+					(name "MPN") "CL32A107MQVNNWE")
+				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Digi-Key P/N") "1276-3366-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 100uF 6.3V X5R 1210, input damping leg")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL32A107MQVNNWE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "1276-3366-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c1fa79a4-4fdc-7ea2-e193-a2c1a6da653b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "100u/6.3V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 100uF 6.3V X5R 1210, input damping leg")
+			(fields
+				(field
+					(name "MPN") "CL32A107MQVNNWE")
+				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Digi-Key P/N") "1276-3366-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 100uF 6.3V X5R 1210, input damping leg")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL32A107MQVNNWE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "1276-3366-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1da1a08a-864b-3a99-cded-2896fb149241")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "2n2/100V")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 2.2nF 100V C0G 1210, snubber")
+			(fields
+				(field
+					(name "MPN") "C1210C222J1GACTU")
+				(field
+					(name "Manufacturer") "KEMET")
+				(field
+					(name "Digi-Key P/N") "399-C1210C222J1GACTUCT-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 2.2nF 100V C0G 1210, snubber")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "C1210C222J1GACTU")
+			)
+			(property
+				(name "Manufacturer")
+				(value "KEMET")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "399-C1210C222J1GACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ff76375c-085f-dabd-adf7-a094e96f759a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "47u/25V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 47uF 25V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "TMK325ABJ476MM-P")
+				(field
+					(name "Manufacturer") "Taiyo Yuden")
+				(field
+					(name "Digi-Key P/N") "587-5479-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 47uF 25V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "TMK325ABJ476MM-P")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Taiyo Yuden")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "587-5479-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "aeb8f72f-fce3-cebe-ecc4-5e9d90dee465")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "47u/25V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 47uF 25V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "TMK325ABJ476MM-P")
+				(field
+					(name "Manufacturer") "Taiyo Yuden")
+				(field
+					(name "Digi-Key P/N") "587-5479-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 47uF 25V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "TMK325ABJ476MM-P")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Taiyo Yuden")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "587-5479-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "25753456-8a66-a9c8-e2b4-ba3133ceaa44")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "47u/25V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 47uF 25V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "TMK325ABJ476MM-P")
+				(field
+					(name "Manufacturer") "Taiyo Yuden")
+				(field
+					(name "Digi-Key P/N") "587-5479-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 47uF 25V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "TMK325ABJ476MM-P")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Taiyo Yuden")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "587-5479-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0137adfc-3dcb-e2e9-54bf-f3e6ed3ee3f7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C16")
+			(value "47u/25V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 47uF 25V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "TMK325ABJ476MM-P")
+				(field
+					(name "Manufacturer") "Taiyo Yuden")
+				(field
+					(name "Digi-Key P/N") "587-5479-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 47uF 25V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "TMK325ABJ476MM-P")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Taiyo Yuden")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "587-5479-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9a840edd-149e-6938-1e7e-cb790ec25779")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C17")
+			(value "47u/25V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 47uF 25V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "TMK325ABJ476MM-P")
+				(field
+					(name "Manufacturer") "Taiyo Yuden")
+				(field
+					(name "Digi-Key P/N") "587-5479-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 47uF 25V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "TMK325ABJ476MM-P")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Taiyo Yuden")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "587-5479-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "027aa1aa-daef-31bd-c0bc-503317dc0249")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C18")
+			(value "47u/25V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 47uF 25V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "TMK325ABJ476MM-P")
+				(field
+					(name "Manufacturer") "Taiyo Yuden")
+				(field
+					(name "Digi-Key P/N") "587-5479-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 47uF 25V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "TMK325ABJ476MM-P")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Taiyo Yuden")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "587-5479-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4e435179-0f1a-1117-5f58-23041f71d409")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C19")
+			(value "47u/25V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 47uF 25V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "TMK325ABJ476MM-P")
+				(field
+					(name "Manufacturer") "Taiyo Yuden")
+				(field
+					(name "Digi-Key P/N") "587-5479-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 47uF 25V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "TMK325ABJ476MM-P")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Taiyo Yuden")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "587-5479-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d8d1407b-3147-c6dc-fc70-af3c47eb5fa6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C20")
+			(value "47u/25V X5R")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Ceramic 47uF 25V X5R 1210")
+			(fields
+				(field
+					(name "MPN") "TMK325ABJ476MM-P")
+				(field
+					(name "Manufacturer") "Taiyo Yuden")
+				(field
+					(name "Digi-Key P/N") "587-5479-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic 47uF 25V X5R 1210")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "TMK325ABJ476MM-P")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Taiyo Yuden")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "587-5479-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "525f4055-dbd2-18b6-7e45-32d0cd797e2f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C22")
+			(value "1u/25V")
+			(footprint "1v2boost:C_0805_2012Metric")
+			(description "Driver bulk decoupling")
+			(fields
+				(field
+					(name "MPN") "C0805C105K3RACTU")
+				(field
+					(name "Manufacturer") "KEMET")
+				(field
+					(name "Digi-Key P/N") "399-C0805C105K3RACTUCT-ND")
+				(field
+					(name "Footprint") "1v2boost:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Driver bulk decoupling")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "C0805C105K3RACTU")
+			)
+			(property
+				(name "Manufacturer")
+				(value "KEMET")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "399-C0805C105K3RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b2f4a03f-8786-f4e7-07b6-409ea8472ac8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C23")
+			(value "100n/25V")
+			(footprint "1v2boost:C_0603_1608Metric")
+			(description "Driver HF decoupling")
+			(fields
+				(field
+					(name "MPN") "C0603C104K5RACTU")
+				(field
+					(name "Manufacturer") "KEMET")
+				(field
+					(name "Digi-Key P/N") "399-C0603C104K5RACTUCT-ND")
+				(field
+					(name "Footprint") "1v2boost:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Driver HF decoupling")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "C0603C104K5RACTU")
+			)
+			(property
+				(name "Manufacturer")
+				(value "KEMET")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "399-C0603C104K5RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "83d6de38-3030-a19d-05d3-2b97c958ade5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C24")
+			(value "330p C0G")
+			(footprint "1v2boost:C_0603_1608Metric")
+			(description "Oscillator timing capacitor")
+			(fields
+				(field
+					(name "MPN") "CL10C331JB8NNNC")
+				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Digi-Key P/N") "1276-1073-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Oscillator timing capacitor")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL10C331JB8NNNC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "1276-1073-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "70950331-f471-8ad1-6b25-832670dbc085")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C25")
+			(value "220n")
+			(footprint "1v2boost:C_0603_1608Metric")
+			(description "Soft start, ~18 ms - long on purpose to limit cell inrush")
+			(fields
+				(field
+					(name "MPN") "GRM188R71H224KAC4D")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Digi-Key P/N") "490-12546-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Soft start, ~18 ms - long on purpose to limit cell inrush")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R71H224KAC4D")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "490-12546-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bd8a2bc0-745d-60f8-5002-8aeb95b4a311")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C26")
+			(value "1u/16V")
+			(footprint "1v2boost:C_0603_1608Metric")
+			(description "BP regulator bypass")
+			(fields
+				(field
+					(name "MPN") "C0603C105K4RACTU")
+				(field
+					(name "Manufacturer") "KEMET")
+				(field
+					(name "Digi-Key P/N") "399-C0603C105K4RACTUCT-ND")
+				(field
+					(name "Footprint") "1v2boost:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "BP regulator bypass")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "C0603C105K4RACTU")
+			)
+			(property
+				(name "Manufacturer")
+				(value "KEMET")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "399-C0603C105K4RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2a89699c-e8a5-2a74-710b-22338b2e4bc6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C27")
+			(value "220n")
+			(footprint "1v2boost:C_0603_1608Metric")
+			(description "Compensation zero, ~152 Hz")
+			(fields
+				(field
+					(name "MPN") "GRM188R71H224KAC4D")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Digi-Key P/N") "490-12546-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Compensation zero, ~152 Hz")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R71H224KAC4D")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "490-12546-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d107f6ff-a7a6-5cde-899a-929ffab8a3fd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C28")
+			(value "3n3")
+			(footprint "1v2boost:C_0603_1608Metric")
+			(description "HF pole, ~10 kHz")
+			(fields
+				(field
+					(name "MPN") "GCM1885C1H332FA16D")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Digi-Key P/N") "490-GCM1885C1H332FA16DCT-ND")
+				(field
+					(name "Footprint") "1v2boost:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "HF pole, ~10 kHz")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GCM1885C1H332FA16D")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "490-GCM1885C1H332FA16DCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "03eb30cf-35fc-6142-bf5f-da1c5a4de9d3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C29")
+			(value "1n")
+			(footprint "1v2boost:C_0603_1608Metric")
+			(description "Current sense filter capacitor")
+			(fields
+				(field
+					(name "MPN") "CL10C102JB8NNNC")
+				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Digi-Key P/N") "1276-1091-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Current sense filter capacitor")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL10C102JB8NNNC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "1276-1091-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f21b5df7-34d3-5cb6-ce45-a7a9872277df")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C30")
+			(value "10u/25V")
+			(footprint "1v2boost:C_1210_3225Metric")
+			(description "Bias bulk")
+			(fields
+				(field
+					(name "MPN") "C3225X7R1E106M250AC")
+				(field
+					(name "Manufacturer") "TDK")
+				(field
+					(name "Digi-Key P/N") "445-1434-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Bias bulk")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "C3225X7R1E106M250AC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "TDK")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "445-1434-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a5244bc6-b91c-2a47-5c5b-1283ba1d1317")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C31")
+			(value "100n/25V")
+			(footprint "1v2boost:C_0603_1608Metric")
+			(description "Controller VDD decoupling")
+			(fields
+				(field
+					(name "MPN") "C0603C104K5RACTU")
+				(field
+					(name "Manufacturer") "KEMET")
+				(field
+					(name "Digi-Key P/N") "399-C0603C104K5RACTUCT-ND")
+				(field
+					(name "Footprint") "1v2boost:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Controller VDD decoupling")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "C0603C104K5RACTU")
+			)
+			(property
+				(name "Manufacturer")
+				(value "KEMET")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "399-C0603C104K5RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d26cde3e-8cfb-9cd4-34db-abcd96aa6ebe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C32")
+			(value "100n")
+			(footprint "1v2boost:C_0603_1608Metric")
+			(description "Comparator supply bypass")
+			(fields
+				(field
+					(name "MPN") "C0603C104K5RACTU")
+				(field
+					(name "Manufacturer") "KEMET")
+				(field
+					(name "Digi-Key P/N") "399-C0603C104K5RACTUCT-ND")
+				(field
+					(name "Footprint") "1v2boost:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Comparator supply bypass")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "C0603C104K5RACTU")
+			)
+			(property
+				(name "Manufacturer")
+				(value "KEMET")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "399-C0603C104K5RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "81791a00-e4cf-c7e1-a7bf-2500f97b890e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C33")
+			(value "100n")
+			(footprint "1v2boost:C_0603_1608Metric")
+			(description "Cell sense filter, 100 us - rides out cell noise")
+			(fields
+				(field
+					(name "MPN") "C0603C104K5RACTU")
+				(field
+					(name "Manufacturer") "KEMET")
+				(field
+					(name "Digi-Key P/N") "399-C0603C104K5RACTUCT-ND")
+				(field
+					(name "Footprint") "1v2boost:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cell sense filter, 100 us - rides out cell noise")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "C0603C104K5RACTU")
+			)
+			(property
+				(name "Manufacturer")
+				(value "KEMET")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "399-C0603C104K5RACTUCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a753b5fa-52bc-3ed1-2d95-e4506f1ed53e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C34")
+			(value "10n")
+			(footprint "1v2boost:C_0603_1608Metric")
+			(description "Reference bypass")
+			(fields
+				(field
+					(name "MPN") "CL10B103KB8NNNC")
+				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "Digi-Key P/N") "1276-1009-1-ND")
+				(field
+					(name "Footprint") "1v2boost:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Reference bypass")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL10B103KB8NNNC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "1276-1009-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a378a53a-ba8b-e9b6-9709-409d3f6d6c04")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "STPS40L45CT")
+			(footprint "1v2boost:TO-220-3_Vertical")
+			(description "Schottky 45V 2x20A low drop, common cathode, TO-220AB")
+			(fields
+				(field
+					(name "MPN") "STPS40L45CT")
+				(field
+					(name "Manufacturer") "STMicroelectronics")
+				(field
+					(name "Digi-Key P/N") "497-7567-5-ND")
+				(field
+					(name "Footprint") "1v2boost:TO-220-3_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schottky 45V 2x20A low drop, common cathode, TO-220AB")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "D_Schottky_Dual_CC")
+				(description "Dual Schottky rectifier, common cathode")
+			)
+			(property
+				(name "MPN")
+				(value "STPS40L45CT")
+			)
+			(property
+				(name "Manufacturer")
+				(value "STMicroelectronics")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "497-7567-5-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode schottky dual common cathode")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "42fbc0b3-a433-0c76-abc5-11404019143f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "SS14")
+			(footprint "1v2boost:D_SMA")
+			(description "Schottky 40V 1A, reverse polarity protection on the bias rail")
+			(fields
+				(field
+					(name "MPN") "SS14")
+				(field
+					(name "Manufacturer") "onsemi")
+				(field
+					(name "Digi-Key P/N") "SS14CT-ND")
+				(field
+					(name "Footprint") "1v2boost:D_SMA")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schottky 40V 1A, reverse polarity protection on the bias rail")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "D_Schottky")
+				(description "Schottky barrier rectifier")
+			)
+			(property
+				(name "MPN")
+				(value "SS14")
+			)
+			(property
+				(name "Manufacturer")
+				(value "onsemi")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "SS14CT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode schottky rectifier")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "844a09c1-87cf-04af-249c-1f60adbab5d5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D4")
+			(value "5V1 0.5W")
+			(footprint "1v2boost:D_SOD-123")
+			(description "5.1 V 0.5 W zener, comparator supply")
+			(fields
+				(field
+					(name "MPN") "MMSZ5231B-7-F")
+				(field
+					(name "Manufacturer") "Diodes Incorporated")
+				(field
+					(name "Digi-Key P/N") "MMSZ5231B-FDICT-ND")
+				(field
+					(name "Footprint") "1v2boost:D_SOD-123")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "5.1 V 0.5 W zener, comparator supply")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "D_Zener")
+				(description "Zener diode")
+			)
+			(property
+				(name "MPN")
+				(value "MMSZ5231B-7-F")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Diodes Incorporated")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "MMSZ5231B-FDICT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode zener")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "672b77ad-98d8-51da-2eeb-3ef45601daa5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FID1")
+			(value "FID")
+			(footprint "1v2boost:Fiducial_1mm")
+			(description "Fiducial")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:Fiducial_1mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "Fiducial")
+				(description "Fiducial marker for pick and place")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4d5157e7-9b18-c0d7-b522-9a982e0fd2f1")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FID2")
+			(value "FID")
+			(footprint "1v2boost:Fiducial_1mm")
+			(description "Fiducial")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:Fiducial_1mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "Fiducial")
+				(description "Fiducial marker for pick and place")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "223d82c0-37f3-0a24-bd82-bc2edcc2c322")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "M3")
+			(footprint "1v2boost:MountingHole_3.2mm_M3")
+			(description "M3 mounting hole")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "M3 mounting hole")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "MountingHole")
+				(description "Mounting hole")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole mechanical")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d640bbb4-4d88-afb3-401a-a05b57c7f83c")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "M3")
+			(footprint "1v2boost:MountingHole_3.2mm_M3")
+			(description "M3 mounting hole")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "M3 mounting hole")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "MountingHole")
+				(description "Mounting hole")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole mechanical")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "df40c0f7-1c1c-34f0-2607-b3ef1e08d52b")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "M3")
+			(footprint "1v2boost:MountingHole_3.2mm_M3")
+			(description "M3 mounting hole")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "M3 mounting hole")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "MountingHole")
+				(description "Mounting hole")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole mechanical")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3dea0b22-2d67-bea2-215f-aaf1a4f26ab7")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H4")
+			(value "M3")
+			(footprint "1v2boost:MountingHole_3.2mm_M3")
+			(description "M3 mounting hole")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "M3 mounting hole")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "MountingHole")
+				(description "Mounting hole")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole mechanical")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f4b8b209-3d0a-af20-13de-5c037221a422")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "CELL 1.2V 28A")
+			(footprint "1v2boost:SolderPad_Pair_Input_14x10mm")
+			(description "Cell input, solder wire or braid directly")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:SolderPad_Pair_Input_14x10mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cell input, solder wire or braid directly")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "Conn_Power_2Pad")
+				(description "High-current solder-direct terminal pair")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector terminal power solder pad")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "daa2a731-810a-2cc3-f375-16397497bafa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "VOUT 12V 1.7A")
+			(footprint "1v2boost:SolderPad_Pair_Output_8x6mm")
+			(description "12 V output terminals")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:SolderPad_Pair_Output_8x6mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "12 V output terminals")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "Conn_Power_2Pad")
+				(description "High-current solder-direct terminal pair")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector terminal power solder pad")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0e3b041e-37be-a29f-8d26-9748e24cf416")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "12V BIAS")
+			(footprint "1v2boost:PinHeader_1x02_P2.54mm")
+			(description "Auxiliary 12 V bias input, ~60 mA")
+			(fields
+				(field
+					(name "MPN") "PREC002SAAN-RC")
+				(field
+					(name "Manufacturer") "Sullins")
+				(field
+					(name "Digi-Key P/N") "35-PREC002SAAN-RC-ND")
+				(field
+					(name "Footprint") "1v2boost:PinHeader_1x02_P2.54mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Auxiliary 12 V bias input, ~60 mA")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "Conn_01x02")
+				(description "2-pin 2.54 mm header")
+			)
+			(property
+				(name "MPN")
+				(value "PREC002SAAN-RC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Sullins")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "35-PREC002SAAN-RC-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector header pin")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9e1fb4d3-b088-f01a-2c68-ae61b02c1561")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP1")
+			(value "EN BYPASS")
+			(footprint "1v2boost:R_0805_2012Metric")
+			(description "Solder jumper: fit to force enable, ignoring cell UVLO")
+			(fields
+				(field
+					(name "MPN") "RC0805JR-070RL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-0.0ARCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder jumper: fit to force enable, ignoring cell UVLO")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "Jumper_2")
+				(description "Solder jumper, 2 pad")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805JR-070RL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-0.0ARCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "jumper solder link")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8753bc1f-49c9-2326-3f25-aeb950b6251c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "1.5uH PG1083.152NL")
+			(footprint "1v2boost:L_Pulse_PG1083")
+			(description "1.5uH 1.4mohm Isat 52A Irms 40A round wire inductor")
+			(fields
+				(field
+					(name "MPN") "PG1083.152NL")
+				(field
+					(name "Manufacturer") "Pulse Electronics")
+				(field
+					(name "Digi-Key P/N") "553-3164-ND")
+				(field
+					(name "Footprint") "1v2boost:L_Pulse_PG1083")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1.5uH 1.4mohm Isat 52A Irms 40A round wire inductor")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "MPN")
+				(value "PG1083.152NL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Pulse Electronics")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "553-3164-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7d743b07-20b7-bb05-33c1-3825b1b73475")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "SUP40012EL-GE3")
+			(footprint "1v2boost:TO-220-3_Vertical")
+			(description "N-MOSFET 40V 150A 1.49mohm logic level TO-220AB")
+			(fields
+				(field
+					(name "MPN") "SUP40012EL-GE3")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Digi-Key P/N") "SUP40012EL-GE3-ND")
+				(field
+					(name "Footprint") "1v2boost:TO-220-3_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET 40V 150A 1.49mohm logic level TO-220AB")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "Q_NMOS_GDS")
+				(description "N-channel MOSFET, gate/drain/source")
+			)
+			(property
+				(name "MPN")
+				(value "SUP40012EL-GE3")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "SUP40012EL-GE3-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "nmos mosfet transistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "81e7b11a-943a-694f-d875-516f75b47867")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q2")
+			(value "SUP40012EL-GE3")
+			(footprint "1v2boost:TO-220-3_Vertical")
+			(description "N-MOSFET 40V 150A 1.49mohm logic level TO-220AB")
+			(fields
+				(field
+					(name "MPN") "SUP40012EL-GE3")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Digi-Key P/N") "SUP40012EL-GE3-ND")
+				(field
+					(name "Footprint") "1v2boost:TO-220-3_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET 40V 150A 1.49mohm logic level TO-220AB")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "Q_NMOS_GDS")
+				(description "N-channel MOSFET, gate/drain/source")
+			)
+			(property
+				(name "MPN")
+				(value "SUP40012EL-GE3")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "SUP40012EL-GE3-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "nmos mosfet transistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3f339d48-0b4f-0f0b-3e9f-8c300daaa048")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "0R10 1W")
+			(footprint "1v2boost:R_1210_3225Metric")
+			(description "0.1 ohm 1% 1W 1210 current sense, input filter damping")
+			(fields
+				(field
+					(name "MPN") "RCWE1210R100FKEA")
+				(field
+					(name "Manufacturer") "Vishay Dale")
+				(field
+					(name "Digi-Key P/N") "541-4390-1-ND")
+				(field
+					(name "Footprint") "1v2boost:R_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "0.1 ohm 1% 1W 1210 current sense, input filter damping")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RCWE1210R100FKEA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay Dale")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "541-4390-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "385e6cc4-2d73-76f4-41e2-e9a97ae9a7ce")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "1m0 5W")
+			(footprint "1v2boost:R_Shunt_2512_CSS2H")
+			(description "1 mohm 5W current sense, 2512 (2-terminal)")
+			(fields
+				(field
+					(name "MPN") "CSS2H-2512R-1L00F")
+				(field
+					(name "Manufacturer") "Bourns")
+				(field
+					(name "Digi-Key P/N") "CSS2H-2512R-1L00FCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_Shunt_2512_CSS2H")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "1 mohm 5W current sense, 2512 (2-terminal)")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R_Shunt_Kelvin")
+				(description "2-terminal current sense resistor with Kelvin sense taps (pins 1+3 and 2+4 are each one terminal)")
+			)
+			(property
+				(name "MPN")
+				(value "CSS2H-2512R-1L00F")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Bourns")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "CSS2H-2512R-1L00FCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "shunt kelvin current sense")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "54855ef0-bc18-12e7-e549-f49062ab1b7f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "2R2 1W")
+			(footprint "1v2boost:R_1210_3225Metric")
+			(description "2.2 ohm 5% 1W 1210, switch node snubber")
+			(fields
+				(field
+					(name "MPN") "ESR25JZPJ2R2")
+				(field
+					(name "Manufacturer") "Rohm")
+				(field
+					(name "Digi-Key P/N") "RHM2.2AXCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_1210_3225Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2.2 ohm 5% 1W 1210, switch node snubber")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "ESR25JZPJ2R2")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Rohm")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "RHM2.2AXCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c87416d5-daeb-9c74-8d27-0e150af43e97")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "2R2")
+			(footprint "1v2boost:R_0805_2012Metric")
+			(description "Turn-on gate resistor")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-072R2L")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-2.20CRCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Turn-on gate resistor")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-072R2L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-2.20CRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0a4042d7-4842-2750-c22a-496403b85e56")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "1R0")
+			(footprint "1v2boost:R_0805_2012Metric")
+			(description "Turn-off gate resistor")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-071RL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-1.00CRCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Turn-off gate resistor")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-071RL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-1.00CRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e63ce54d-48ba-2d1e-6497-30ab9d330926")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "10k")
+			(footprint "1v2boost:R_0805_2012Metric")
+			(description "Gate pulldown, holds FETs off when the driver is unpowered")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-10.0KCRCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Gate pulldown, holds FETs off when the driver is unpowered")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-10.0KCRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e0d70b03-f169-f6e8-d19a-fedc9be78144")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "549k 1%")
+			(footprint "1v2boost:R_0603_1608Metric")
+			(description "Oscillator timing resistor, 100 kHz")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-07549KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-549KHRCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Oscillator timing resistor, 100 kHz")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07549KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-549KHRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2ce79c02-0356-e9e1-4b61-17c971141108")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "100k 1%")
+			(footprint "1v2boost:R_0603_1608Metric")
+			(description "Feedback divider, upper")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-07100KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-100KHRCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Feedback divider, upper")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07100KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-100KHRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6e5728fe-eb51-7dfb-b8e6-466e922358eb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "6k19 1%")
+			(footprint "1v2boost:R_0603_1608Metric")
+			(description "Feedback divider, lower")
+			(fields
+				(field
+					(name "MPN") "ERJ-3EKF6191V")
+				(field
+					(name "Manufacturer") "Panasonic")
+				(field
+					(name "Digi-Key P/N") "P6.19KHCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Feedback divider, lower")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "ERJ-3EKF6191V")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Panasonic")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "P6.19KHCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "841a0df5-e688-c3c6-a38d-4049d888ef31")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "4k75 1%")
+			(footprint "1v2boost:R_0603_1608Metric")
+			(description "Compensation resistor")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-074K75L")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-4.75KHRCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Compensation resistor")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-074K75L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-4.75KHRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b3183cbb-b8d6-b3b0-3afa-9af852284854")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "100R")
+			(footprint "1v2boost:R_0603_1608Metric")
+			(description "Current sense filter resistor")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-07100RL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-100HRCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Current sense filter resistor")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07100RL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-100HRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3bc186ad-0e70-bddb-7d46-89e4e2700b06")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "10k")
+			(footprint "1v2boost:R_0603_1608Metric")
+			(description "Zener dropper, ~690 uA")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-10.0KHRCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Zener dropper, ~690 uA")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-10.0KHRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "adadd3c0-b368-fcde-955e-c15b38281088")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "10k 1%")
+			(footprint "1v2boost:R_0603_1608Metric")
+			(description "UVLO threshold, upper")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-10.0KHRCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "UVLO threshold, upper")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-10.0KHRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "511e5300-26b9-2459-e9dd-edb74a78d766")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "26k1 1%")
+			(footprint "1v2boost:R_0603_1608Metric")
+			(description "UVLO threshold, lower")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-0726K1L")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-26.1KHRCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "UVLO threshold, lower")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-0726K1L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-26.1KHRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f0b09fa2-1988-40d9-850b-dca108739fa4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "100k")
+			(footprint "1v2boost:R_0603_1608Metric")
+			(description "UVLO hysteresis")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-07100KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-100KHRCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "UVLO hysteresis")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07100KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-100KHRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6c0f70ba-89ec-ac33-5c64-25654f22db8b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "100k")
+			(footprint "1v2boost:R_0603_1608Metric")
+			(description "Open-drain pullup for DIS/EN")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-07100KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-100KHRCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Open-drain pullup for DIS/EN")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-07100KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-100KHRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b17f72f3-56a8-9cfe-fcb9-b6a028fbad50")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R17")
+			(value "1k")
+			(footprint "1v2boost:R_0603_1608Metric")
+			(description "Cell sense filter")
+			(fields
+				(field
+					(name "MPN") "RC0603FR-071KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Digi-Key P/N") "311-1.00KHRCT-ND")
+				(field
+					(name "Footprint") "1v2boost:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cell sense filter")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0603FR-071KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "311-1.00KHRCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1295fe21-6d34-bb17-1c50-f09bfb85fb73")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP1")
+			(value "TP_SW")
+			(footprint "1v2boost:TestPoint_Pad_D1.5mm")
+			(description "Test point: SW")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test point: SW")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TestPoint")
+				(description "Test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point probe tp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9cc87fc0-6c9a-13a6-3c05-87246eed7541")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP2")
+			(value "TP_ISNS")
+			(footprint "1v2boost:TestPoint_Pad_D1.5mm")
+			(description "Test point: ISNS")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test point: ISNS")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TestPoint")
+				(description "Test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point probe tp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8d409446-c1b1-9a93-b433-1bef9dfd5255")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP3")
+			(value "TP_COMP")
+			(footprint "1v2boost:TestPoint_Pad_D1.5mm")
+			(description "Test point: COMP")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test point: COMP")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TestPoint")
+				(description "Test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point probe tp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "25de82a4-f8d1-757c-d5fa-5c46c056d5ef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP4")
+			(value "TP_FB")
+			(footprint "1v2boost:TestPoint_Pad_D1.5mm")
+			(description "Test point: FB")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test point: FB")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TestPoint")
+				(description "Test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point probe tp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e53eb8cf-283c-8a5e-3ff8-eec649b0f7d1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP5")
+			(value "TP_GATE")
+			(footprint "1v2boost:TestPoint_Pad_D1.5mm")
+			(description "Test point: GATE")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test point: GATE")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TestPoint")
+				(description "Test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point probe tp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "36beb6db-3cdf-2864-c4ae-00d4ca337cb5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP6")
+			(value "TP_VCELL")
+			(footprint "1v2boost:TestPoint_Pad_D1.5mm")
+			(description "Test point: VCELL")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test point: VCELL")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TestPoint")
+				(description "Test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point probe tp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8956823b-d487-edf6-925d-5184ff0bfc48")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP7")
+			(value "TP_VOUT")
+			(footprint "1v2boost:TestPoint_Pad_D1.5mm")
+			(description "Test point: VOUT")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test point: VOUT")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TestPoint")
+				(description "Test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point probe tp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8468b75a-ccbd-c43d-87a8-62535f023bf5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP8")
+			(value "TP_PGND")
+			(footprint "1v2boost:TestPoint_Pad_D1.5mm")
+			(description "Test point: PGND")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test point: PGND")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TestPoint")
+				(description "Test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point probe tp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "633db8f3-d2c2-4bc2-e209-9202e42c6985")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP9")
+			(value "TP_EN")
+			(footprint "1v2boost:TestPoint_Pad_D1.5mm")
+			(description "Test point: EN")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test point: EN")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TestPoint")
+				(description "Test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point probe tp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "116d6513-9454-1f25-1267-c06d95387970")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP10")
+			(value "TP_BP")
+			(footprint "1v2boost:TestPoint_Pad_D1.5mm")
+			(description "Test point: BP")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test point: BP")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TestPoint")
+				(description "Test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point probe tp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "860ada44-6f3d-423a-488d-79a4df28a771")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP11")
+			(value "TP_AGND")
+			(footprint "1v2boost:TestPoint_Pad_D1.5mm")
+			(description "Test point: AGND")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test point: AGND")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TestPoint")
+				(description "Test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point probe tp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dd6e6fda-f701-4bc2-7b80-e8276c0323d2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP12")
+			(value "TP_V12")
+			(footprint "1v2boost:TestPoint_Pad_D1.5mm")
+			(description "Test point: V12")
+			(fields
+				(field
+					(name "Footprint") "1v2boost:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test point: V12")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TestPoint")
+				(description "Test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point probe tp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d90988d4-836d-4985-a0e5-cd95fb0b4c01")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "TPS40210DGQ")
+			(footprint "1v2boost:MSOP-10_3x3mm_P0.5mm")
+			(description "Wide-input non-synchronous boost controller, MSOP-10")
+			(fields
+				(field
+					(name "MPN") "TPS40210DGQR")
+				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "Digi-Key P/N") "296-26969-1-ND")
+				(field
+					(name "Footprint") "1v2boost:MSOP-10_3x3mm_P0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Wide-input non-synchronous boost controller, MSOP-10")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TPS40210DGQ")
+				(description "Wide-input non-synchronous boost controller, ground-referenced current sense, MSOP-10")
+			)
+			(property
+				(name "MPN")
+				(value "TPS40210DGQR")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "296-26969-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "boost controller pwm current mode")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d431157d-3c93-db48-79f5-efc3f81036da")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "UCC27511ADBVR")
+			(footprint "1v2boost:SOT-23-6")
+			(description "4A/8A single low-side gate driver, split outputs, SOT-23-6")
+			(fields
+				(field
+					(name "MPN") "UCC27511ADBVR")
+				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "Digi-Key P/N") "296-49474-1-ND")
+				(field
+					(name "Footprint") "1v2boost:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "4A/8A single low-side gate driver, split outputs, SOT-23-6")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "UCC27511A")
+				(description "4-A/8-A single-channel low-side gate driver, split outputs")
+			)
+			(property
+				(name "MPN")
+				(value "UCC27511ADBVR")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "296-49474-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "gate driver mosfet low-side")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0ded024e-bc04-daef-2c71-8c982e8e1bc6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "TLV3011AIDBVR")
+			(footprint "1v2boost:SOT-23-6")
+			(description "Open-drain comparator with 1.242 V reference, SOT-23-6")
+			(fields
+				(field
+					(name "MPN") "TLV3011AIDBVR")
+				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "Digi-Key P/N") "296-39259-1-ND")
+				(field
+					(name "Footprint") "1v2boost:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Open-drain comparator with 1.242 V reference, SOT-23-6")
+			)
+			(libsource
+				(lib "1v2boost")
+				(part "TLV3011")
+				(description "Nanopower open-drain comparator with 1.242 V reference")
+			)
+			(property
+				(name "MPN")
+				(value "TLV3011AIDBVR")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Digi-Key P/N")
+				(value "296-39259-1-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "1v2boost")
+			)
+			(property
+				(name "Sheetfile")
+				(value "1v2boost.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "comparator reference open-drain")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e1c26bbc-a758-5596-a0f1-84b547c81268")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "1v2boost")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "Conn_01x02")
+			(description "2-pin 2.54 mm header")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x02")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2-pin 2.54 mm header")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "Conn_Power_2Pad")
+			(description "High-current solder-direct terminal pair")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_Power_2Pad")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "High-current solder-direct terminal pair")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "D_Schottky")
+			(description "Schottky barrier rectifier")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_Schottky")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schottky barrier rectifier")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "D_Schottky_Dual_CC")
+			(description "Dual Schottky rectifier, common cathode")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_Schottky_Dual_CC")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Dual Schottky rectifier, common cathode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "A2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "D_Zener")
+			(description "Zener diode")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_Zener")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Zener diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "Fiducial")
+			(description "Fiducial marker for pick and place")
+			(fields
+				(field
+					(name "Reference") "FID")
+				(field
+					(name "Value") "Fiducial")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial marker for pick and place")
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "Jumper_2")
+			(description "Solder jumper, 2 pad")
+			(fields
+				(field
+					(name "Reference") "JP")
+				(field
+					(name "Value") "Jumper_2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder jumper, 2 pad")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "L")
+			(description "Inductor")
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "L")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "MountingHole")
+			(description "Mounting hole")
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting hole")
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "Q_NMOS_GDS")
+			(description "N-channel MOSFET, gate/drain/source")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "Q_NMOS_GDS")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-channel MOSFET, gate/drain/source")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "D")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "S")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "R")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "R_Shunt_Kelvin")
+			(description "2-terminal current sense resistor with Kelvin sense taps (pins 1+3 and 2+4 are each one terminal)")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "1m0")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "2-terminal current sense resistor with Kelvin sense taps (pins 1+3 and 2+4 are each one terminal)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "F1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "F2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "K1")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "K2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "TLV3011")
+			(description "Nanopower open-drain comparator with 1.242 V reference")
+			(docs "https://www.ti.com/lit/ds/symlink/tlv3011.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TLV3011")
+				(field
+					(name "Footprint") "1v2boost:SOT-23-6")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlv3011.pdf")
+				(field
+					(name "Description") "Nanopower open-drain comparator with 1.242 V reference")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "OUT")
+					(type "open_collector")
+				)
+				(pin
+					(num "2")
+					(name "V-")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "IN+")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "IN-")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "REF")
+					(type "output")
+				)
+				(pin
+					(num "6")
+					(name "V+")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "TPS40210DGQ")
+			(description "Wide-input non-synchronous boost controller, ground-referenced current sense, MSOP-10")
+			(docs "https://www.ti.com/lit/ds/symlink/tps40210.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS40210DGQ")
+				(field
+					(name "Footprint") "1v2boost:MSOP-10_3x3mm_P0.5mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps40210.pdf")
+				(field
+					(name "Description") "Wide-input non-synchronous boost controller, ground-referenced current sense, MSOP-10")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "RC")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "SS")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "DIS/EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "COMP")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "FB")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "ISNS")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "GDRV")
+					(type "output")
+				)
+				(pin
+					(num "9")
+					(name "BP")
+					(type "power_out")
+				)
+				(pin
+					(num "10")
+					(name "VDD")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "TestPoint")
+			(description "Test point")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "TestPoint")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Test point")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "1v2boost")
+			(part "UCC27511A")
+			(description "4-A/8-A single-channel low-side gate driver, split outputs")
+			(docs "https://www.ti.com/lit/ds/symlink/ucc27511.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "UCC27511A")
+				(field
+					(name "Footprint") "1v2boost:SOT-23-6")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ucc27511.pdf")
+				(field
+					(name "Description") "4-A/8-A single-channel low-side gate driver, split outputs")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "OUTH")
+					(type "output")
+				)
+				(pin
+					(num "3")
+					(name "OUTL")
+					(type "output")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "IN-")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "IN+")
+					(type "input")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "1v2boost")
+			(uri "${KIPRJMOD}/lib/1v2boost.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/BP")
+			(class "Default")
+			(node
+				(ref "C26")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP10")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "BP_9")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "2")
+			(name "/CELL_S")
+			(class "Default")
+			(node
+				(ref "C33")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "IN-_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "3")
+			(name "/CMP_REF")
+			(class "Default")
+			(node
+				(ref "C34")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "REF_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "4")
+			(name "/CMP_TH")
+			(class "Default")
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "IN+_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "5")
+			(name "/COMP")
+			(class "Default")
+			(node
+				(ref "C28")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "COMP_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "6")
+			(name "/CZ")
+			(class "Default")
+			(node
+				(ref "C27")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/DAMP")
+			(class "Default")
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/EN")
+			(class "Default")
+			(node
+				(ref "JP1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP9")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "DIS/EN_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "9")
+			(name "/FB")
+			(class "Default")
+			(node
+				(ref "C27")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C28")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "FB_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "10")
+			(name "/GATE")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "Q2")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/GDRV")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "GDRV_8")
+				(pintype "output")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "IN+_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "/ISNS")
+			(class "Default")
+			(node
+				(ref "C29")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "ISNS_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "13")
+			(name "/ISNS_K")
+			(class "Default")
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "3")
+				(pinfunction "K1_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/OUTH")
+			(class "Default")
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "OUTH_2")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "15")
+			(name "/OUTL")
+			(class "Default")
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "OUTL_3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "16")
+			(name "/RC")
+			(class "Default")
+			(node
+				(ref "C24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "RC_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/SNUB")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/SRC")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pinfunction "F1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/SS")
+			(class "Default")
+			(node
+				(ref "C25")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "SS_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "/SW")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "A1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "3")
+				(pinfunction "A2_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "/V12AUX")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "AGND")
+			(class "Default")
+			(node
+				(ref "C24")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C26")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C29")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C31")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C32")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C33")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C34")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "4")
+				(pinfunction "K2_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP11")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "GND_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "V-_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "23")
+			(name "PGND")
+			(class "Power")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C30")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pinfunction "F2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "IN-_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "24")
+			(name "V5C")
+			(class "Default")
+			(node
+				(ref "C32")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "6")
+				(pinfunction "V+_6")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "25")
+			(name "V12")
+			(class "Default")
+			(node
+				(ref "C22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C30")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C31")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP12")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "VDD_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "26")
+			(name "VCELL")
+			(class "Power")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "VOUT")
+			(class "Power")
+			(node
+				(ref "C13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "K_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+	)
+)

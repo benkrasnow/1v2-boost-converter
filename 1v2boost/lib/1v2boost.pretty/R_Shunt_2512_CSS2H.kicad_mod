@@ -1,0 +1,183 @@
+(footprint "R_Shunt_2512_CSS2H"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Bourns CSS2H-2512 current sense resistor, 2-terminal, with the Kelvin sense fingers from the datasheet land pattern. Pads 1+3 and 2+4 are each one terminal.")
+	(tags "shunt kelvin 2512 current sense bourns css2h")
+	(property "Reference" "REF**"
+		(at 0 -4.4 0)
+		(layer "F.SilkS")
+		(uuid "db0a1cd0-6565-4dac-b200-5b04daaf0867")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Shunt_2512_CSS2H"
+		(at 0 4.4 0)
+		(layer "F.Fab")
+		(uuid "b42a6bf2-c077-4665-a991-95ffe7b03d8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81acdc0b-c592-44f3-a757-78faa3455442")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e48b2d0-147b-403f-9ff3-57d474c922b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(net_tie_pad_groups "1, 3" "2, 4")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.9 -1.9)
+		(end 1.9 -1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ec80932-24c8-4ce0-908c-196cc233dbb0")
+	)
+	(fp_line
+		(start -4.1 -2.1)
+		(end 4.1 -2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f83e4f0-f35e-4fbd-8988-e6c1c1d67701")
+	)
+	(fp_line
+		(start -4.1 5.3)
+		(end -4.1 -2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9bef3de-f512-405c-8f94-605c3e6a4920")
+	)
+	(fp_line
+		(start 4.1 -2.1)
+		(end 4.1 5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e8a7e45-2867-4552-bd50-beacb126b3b6")
+	)
+	(fp_line
+		(start 4.1 5.3)
+		(end -4.1 5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b48db57d-7cc7-470a-b9c5-7951e9574483")
+	)
+	(fp_line
+		(start -3.175 -1.525)
+		(end 3.175 -1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38fbb703-e432-49ee-a865-5ef17db65a73")
+	)
+	(fp_line
+		(start -3.175 1.525)
+		(end -3.175 -1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "556d0804-1bfa-4e87-be30-7bc42903116a")
+	)
+	(fp_line
+		(start 3.175 -1.525)
+		(end 3.175 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be9e35f2-51d5-4f5d-a39c-f79d0230bcfe")
+	)
+	(fp_line
+		(start 3.175 1.525)
+		(end -3.175 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0be18856-f408-4db2-bf8e-267274c8c3b6")
+	)
+	(fp_text user "PADS 1+3 AND 2+4 ARE EACH ONE TERMINAL"
+		(at 0 -5.8 0)
+		(layer "F.Fab")
+		(uuid "e95f17ea-2778-4057-b857-b0e8810508ba")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.6 0)
+		(size 1.8 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "469e96ad-2c0a-4642-94cb-bb943ef5e540")
+	)
+	(pad "2" smd roundrect
+		(at 2.6 0)
+		(size 1.8 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "82d02736-1cde-470e-b483-b97cc53780d0")
+	)
+	(pad "3" smd rect
+		(at -1.45 0)
+		(size 0.9 0.4)
+		(layers "F.Cu")
+		(uuid "8ddbc397-eff4-4d71-94d7-394080bcdf50")
+	)
+	(pad "4" smd rect
+		(at 1.45 0)
+		(size 0.9 0.4)
+		(layers "F.Cu")
+		(uuid "c0e1e41a-6e2f-47c6-a773-279a374af0c2")
+	)
+	(embedded_fonts no)
+)

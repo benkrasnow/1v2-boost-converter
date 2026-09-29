@@ -1,0 +1,126 @@
+** Drc report for 1v2boost.kicad_pcb **
+** Created on 2026-07-25T15:49:40 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 8 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(28.0000 mm, 56.2000 mm): Track [V12] on F.Cu, length 0.8000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(51.2125 mm, 62.2000 mm): Track [V12] on F.Cu, length 5.2000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(29.2125 mm, 62.2000 mm): Track [V12] on F.Cu, length 5.2000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(68.5500 mm, 57.0000 mm): Track [V12] on F.Cu, length 2.5000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(23.5000 mm, 60.2000 mm): Track [V12] on F.Cu, length 3.2000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(65.2125 mm, 64.2000 mm): Track [V12] on F.Cu, length 7.2000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(51.0000 mm, 91.0000 mm): Track [/FB] on F.Cu, length 4.0000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(37.0000 mm, 85.0000 mm): Track [/COMP] on F.Cu, length 4.0000 mm
+
+** Found 21 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(6.5000 mm, 57.0000 mm): Track [V12] on F.Cu, length 9.3500 mm
+    @(23.5000 mm, 60.2000 mm): Track [V12] on F.Cu, length 3.2000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(28.0000 mm, 56.2000 mm): Track [V12] on F.Cu, length 0.8000 mm
+    @(23.5000 mm, 60.2000 mm): Track [V12] on F.Cu, length 3.2000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(29.2125 mm, 62.2000 mm): Track [V12] on F.Cu, length 5.2000 mm
+    @(28.0000 mm, 56.2000 mm): Track [V12] on F.Cu, length 0.8000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(29.2125 mm, 64.0000 mm): Track [V12] on F.Cu, length 1.8000 mm
+    @(42.8500 mm, 64.4500 mm): Track [V12] on F.Cu, length 8.3746 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(65.2125 mm, 64.2000 mm): Track [V12] on F.Cu, length 7.2000 mm
+    @(68.5500 mm, 57.0000 mm): Track [V12] on F.Cu, length 2.5000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(65.2125 mm, 64.2000 mm): Track [V12] on F.Cu, length 7.2000 mm
+    @(51.2125 mm, 62.2000 mm): Track [V12] on F.Cu, length 5.2000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(7.0000 mm, 60.0000 mm): Zone 'AGND_FCu' [AGND] on F.Cu, priority 2
+    @(7.0000 mm, 60.0000 mm): Zone 'AGND_FCu' [AGND] on F.Cu, priority 2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(7.0000 mm, 60.0000 mm): Zone 'AGND_FCu' [AGND] on F.Cu, priority 2
+    @(7.0000 mm, 60.0000 mm): Zone 'AGND_FCu' [AGND] on F.Cu, priority 2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(7.0000 mm, 60.0000 mm): Zone 'AGND_FCu' [AGND] on F.Cu, priority 2
+    @(7.0000 mm, 60.0000 mm): Zone 'AGND_FCu' [AGND] on F.Cu, priority 2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(51.2125 mm, 69.8000 mm): Track [/BP] on F.Cu, length 2.7875 mm
+    @(42.2000 mm, 73.5000 mm): Pad 9 [/BP] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(78.9500 mm, 66.0000 mm): Track [/GATE] on F.Cu, length 1.8000 mm
+    @(75.4600 mm, 52.0000 mm): Track [/GATE] on B.Cu, length 1.9201 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(35.5000 mm, 44.0000 mm): Track [/DAMP] on F.Cu, length 1.8000 mm
+    @(35.5000 mm, 30.0000 mm): Track [/DAMP] on F.Cu, length 1.5953 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(44.0000 mm, 83.0000 mm): Track [/FB] on F.Cu, length 4.0000 mm
+    @(42.5875 mm, 86.0000 mm): Track [/FB] on F.Cu, length 0.5000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.2000 mm, 91.0000 mm): Track [/FB] on F.Cu, length 1.0000 mm
+    @(49.4125 mm, 86.0000 mm): Track [/FB] on F.Cu, length 1.8000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(56.0000 mm, 78.5000 mm): Track [/ISNS] on F.Cu, length 4.0000 mm
+    @(42.2000 mm, 74.5000 mm): Pad 7 [/ISNS] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(16.8500 mm, 91.8500 mm): Via [/CMP_REF] on F.Cu - B.Cu
+    @(22.0000 mm, 86.7500 mm): Pad 5 [/CMP_REF] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(26.0000 mm, 92.0000 mm): Track [/EN] on F.Cu, length 9.0000 mm
+    @(37.8000 mm, 74.0000 mm): Pad 3 [/EN] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(29.2125 mm, 72.0000 mm): Pad 1 [/SS] of C25 on F.Cu
+    @(37.8000 mm, 73.5000 mm): Pad 2 [/SS] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(37.8000 mm, 74.5000 mm): Pad 4 [/COMP] of U1 on F.Cu
+    @(37.5000 mm, 84.2000 mm): Track [/COMP] on F.Cu, length 0.8000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(72.9500 mm, 71.2500 mm): Pad 3 [/OUTL] of U2 on F.Cu
+    @(77.0500 mm, 70.0000 mm): Pad 1 [/OUTL] of R5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(42.2000 mm, 74.0000 mm): Pad 8 [/GDRV] of U1 on F.Cu
+    @(71.0500 mm, 68.7500 mm): Pad 6 [/GDRV] of U2 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
